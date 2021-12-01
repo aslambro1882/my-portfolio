@@ -29,6 +29,14 @@
     background-color: #e74c3c;
 }
 
+.navigation-menu a{
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 20px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 575px) {
     .resume-div{
         padding: 15px 0;
@@ -36,6 +44,11 @@
 
     .ms-auto.navbar-nav{
         text-align: center !important;
+    }
+
+    .navigation-menu a{
+        display: block;
+        margin-bottom: 7px;
     }
 
 }

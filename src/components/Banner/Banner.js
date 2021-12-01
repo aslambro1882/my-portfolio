@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import { Col, Container, Row } from "react-bootstrap";
-import myImg from "../../images/myImg.jpg";
+import myImg from "../../images/myImg.JPG";
 import Typical from 'react-typical'
 
 const Banner = () => {

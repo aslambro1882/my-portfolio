@@ -12,6 +12,13 @@ const Navigation = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
+                        <div className="navigation-menu">
+                            <Link to="/home">Home</Link>
+                            <Link to="/about">About</Link>
+                            <Link to="/blogs">Blogs</Link>
+                            <Link to="/projects">Projects</Link>
+                            <Link to="/contact">Contact</Link>
+                        </div>
                         <div className="resume-div">
                             <a target="_blank" href="https://drive.google.com/file/d/1sqDapJI2ElJvXfofmWZLBDaBDMSYLHfz/view?usp=sharing"><i className="fas fa-download"></i> Download Resume</a>
                         </div>

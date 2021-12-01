@@ -24,7 +24,7 @@ const Contact = () => {
 
 
     return (
-        <div className="my-5">
+        <div style={{ margin: '100px 0 15px 0' }}>
             <div>
                 <h4 style={{ textAlign: "center", color: "#e74c3c" }}>If You Want~</h4>
                 <h2
